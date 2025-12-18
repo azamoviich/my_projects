@@ -1,10 +1,18 @@
-👋 Hey everyone!
+**Hey everyone!**
+Welcome to my **GitHub Portfolio** — a showcase of diverse projects **I've built entirely on my own**. Every repository here is 100% solo work: from concept to code, no team involved! 💻✨
+<grok-card data-id="cd237e" data-type="image_card"></grok-card>
 
-Welcome to my GitHub portfolio! This is where I showcase a variety of projects **I've built entirely on my own** — every single one is 100% solo work, no team involved.
+Explore each repo and dive into the READMEs for in-depth details, tech stacks, features, and live demos.
 
-Dive into each repository and check out the README for detailed overviews, tech stacks, and demos.
+<grok-card data-id="534193" data-type="image_card"></grok-card>
+
 
 **Muhammadamin**  
 📧 muhammadamin.nazirov@mail.ru
 
-Open to collaborations and opportunities — feel free to reach out! 🚀
+<grok-card data-id="aa59f0" data-type="image_card"></grok-card>
+
+
+Open to collaborations, feedback, and new opportunities — let's connect! 🌟
+
+<grok-card data-id="6bb09a" data-type="image_card"></grok-card>
