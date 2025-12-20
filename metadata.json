@@ -1,0 +1,5 @@
+{
+  "name": "AI Financial Advisor",
+  "description": "A comprehensive financial dashboard that calculates net salary, estimates taxes across multiple countries, projects retirement, and provides AI-driven financial advice.",
+  "requestFramePermissions": []
+}
