@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { Github, Instagram, Twitter } from 'lucide-react';
+import { Github, Instagram, Twitter, Music2 } from 'lucide-react';
 import { SOCIALS } from '../constants';
 
 // Custom Telegram Icon Component
@@ -27,6 +27,7 @@ const SocialSidebar: React.FC = () => {
       case 'Telegram': return <TelegramIcon size={20} />;
       case 'Instagram': return <Instagram size={20} />;
       case 'Twitter': return <Twitter size={20} />;
+      case 'Spotify': return <Music2 size={20} />;
       default: return <Github size={20} />;
     }
   };

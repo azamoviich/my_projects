@@ -5,6 +5,7 @@ export const SOCIALS: SocialLink[] = [
   { name: 'Telegram', url: 'https://t.me/plagueson', icon: 'telegram' },
   { name: 'Instagram', url: 'https://instagram.com/richplagueson', icon: 'instagram' },
   { name: 'Twitter', url: 'https://twitter.com/plagueson', icon: 'twitter' },
+  { name: 'Spotify', url: 'https://open.spotify.com/playlist/3EJwpWlEwgcqXmd8B7JkVD?si=77e1e1c0964e4a9d', icon: 'spotify' },
 ];
 
 // Specific Tech Stack as requested

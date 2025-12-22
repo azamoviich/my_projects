@@ -130,7 +130,7 @@ export const translations: Record<Language, TranslationData> = {
       role: "FULL STACK DASTURCHI",
       titleLine1: 'RAQAMLI',
       titleLine2: 'VOKELIK',
-      titleLine3: 'YARATUVCHISI',
+      titleLine3: 'MUHANDISI',
       description: "Foydalilik va san'at o'rtasidagi chegarani yo'qotuvchi immersiv web-tajribalarni yaratish. Hozirda TopTier Tech-da kelajakni muhandislik qilmoqdaman.",
       cta: 'KASHF ETING',
     },
@@ -203,7 +203,7 @@ export const translations: Record<Language, TranslationData> = {
     nav: { hero: '01. СТАРТ', about: '02. ЛИЧНОСТЬ', work: '03. ПРОЕКТЫ', contact: '04. СИГНАЛ' },
     hero: {
       role: 'FULL STACK АРХИТЕКТОР',
-      titleLine1: 'СОЗДАТЕЛЬ',
+      titleLine1: 'СТРОИТЕЛЬ',
       titleLine2: 'ЦИФРОВОЙ',
       titleLine3: 'РЕАЛЬНОСТИ',
       description: 'Создание иммерсивных веб-интерфейсов, стирающих грань между утилитарностью и искусством. В настоящее время проектирую будущее в TopTier Tech.',

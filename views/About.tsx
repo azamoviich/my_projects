@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { motion } from 'framer-motion';
-import { Terminal, Code, Database, Layers, FileText, Music, ExternalLink } from 'lucide-react';
+import { Terminal, Code, Database, Layers, FileText, Sparkles, Zap } from 'lucide-react';
 import { SKILLS, CORE_STACK } from '../constants';
 import { useLanguage } from '../context/LanguageContext';
 
@@ -12,7 +12,7 @@ const About: React.FC = () => {
     <div className="min-h-screen w-full flex items-center justify-center py-20 px-4 md:px-10 bg-black/30 backdrop-blur-sm relative">
       <div className="w-full max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16 items-start md:items-center">
         
-        {/* Left Column: Photo & Core Tech & Music (5 Cols) */}
+        {/* Left Column: Photo & Core Tech & Fun Facts (5 Cols) */}
         <div className="lg:col-span-5 flex flex-col items-center lg:items-start order-1 lg:order-1">
           <motion.div
             initial={{ opacity: 0, scale: 0.9 }}
@@ -67,7 +67,7 @@ const About: React.FC = () => {
             </div>
           </motion.div>
 
-          {/* Music Section */}
+          {/* Fun Facts / Currently Learning Section */}
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
@@ -76,18 +76,19 @@ const About: React.FC = () => {
             className="w-full flex flex-col items-center lg:items-start gap-4 p-6 border border-white/5 bg-white/5 rounded-xl backdrop-blur-sm hover:border-accent/30 transition-all group"
           >
              <div className="flex items-center gap-3 w-full">
-                <div className="p-2 bg-green-500/20 rounded-full text-green-400 group-hover:animate-pulse">
-                  <Music size={20} />
+                <div className="p-2 bg-accent/20 rounded-full text-accent group-hover:animate-pulse">
+                  <Sparkles size={20} />
                 </div>
                 <div>
-                   <h4 className="font-mono text-xs text-gray-400 uppercase tracking-wider">{t.about.musicTitle}</h4>
-                   <p className="text-sm font-medium text-white">{t.about.musicDesc}</p>
+                   <h4 className="font-mono text-xs text-gray-400 uppercase tracking-wider">CURRENTLY EXPLORING</h4>
+                   <p className="text-sm font-medium text-white mt-1">Web3, AI Integration, Advanced Shaders</p>
                 </div>
              </div>
-             <a href="https://open.spotify.com/playlist/3EJwpWlEwgcqXmd8B7JkVD?si=77e1e1c0964e4a9d" target="_blank" rel="noreferrer" className="text-xs font-mono text-gray-500 hover:text-green-400 flex items-center gap-2 transition-colors">
-                <span>{t.about.spotifyPlaylist}</span>
-                <ExternalLink size={10} />
-             </a>
+             <div className="w-full h-px bg-white/5 my-2" />
+             <div className="flex items-center gap-2 text-xs font-mono text-gray-500">
+                <Zap size={12} className="text-accent" />
+                <span>Always learning, always building</span>
+             </div>
           </motion.div>
         </div>
 
@@ -198,3 +199,4 @@ const About: React.FC = () => {
 };
 
 export default About;
+
