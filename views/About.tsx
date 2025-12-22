@@ -27,11 +27,17 @@ const About: React.FC = () => {
             
             {/* Image Container */}
             <div className="relative w-full h-full rounded-lg overflow-hidden bg-gray-900">
-               {/* Placeholder for personal photo - using a stylish abstract person or replace with actual URL */}
+               {/* Replace with your GitHub image URL after uploading to images/ folder */}
+               {/* Format: https://raw.githubusercontent.com/azamoviich/myportfolio/main/images/profile.jpg */}
                <img 
-                 src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?fit=crop&w=800&q=80" 
+                 src="https://raw.githubusercontent.com/nazirovv10/photos/main/images/photo_2025-12-21_17-22-47.jpg
+" 
                  alt="Portrait" 
                  className="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-500 scale-100 group-hover:scale-110"
+                 onError={(e) => {
+                   // Fallback to placeholder if image doesn't exist yet
+                   e.currentTarget.src = "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?fit=crop&w=800&q=80";
+                 }}
                />
                
                {/* Overlay Effect */}

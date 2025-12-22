@@ -96,7 +96,8 @@ export const translations: Record<Language, TranslationData> = {
         description: "AI Financial Assistant that helps you manage your finances.",
         tech: ["JavaScript", "TypeScript", "NodeJS"],
         link: "https://t.me/f_ai_as_bot",
-        image: "https://picsum.photos/1200/800?random=1",
+        // Replace with: https://raw.githubusercontent.com/azamoviich/myportfolio/main/images/faias.jpg
+        image: "https://raw.githubusercontent.com/azamoviich/myportfolio/main/images/faias.jpg",
         year: "2025"
       },
       {
@@ -106,7 +107,8 @@ export const translations: Record<Language, TranslationData> = {
         description: "Generative platform that helps restraunt to keep customers returning",
         tech: ["Python", "Next.js"],
         link: "https://t.me/benedict_loyalty_bot",
-        image: "https://picsum.photos/1200/800?random=2",
+        // Replace with: https://raw.githubusercontent.com/azamoviich/myportfolio/main/images/benedict.jpg
+        image: "https://raw.githubusercontent.com/azamoviich/myportfolio/main/images/benedict.jpg",
         year: "2025"
       },
       {
@@ -116,7 +118,8 @@ export const translations: Record<Language, TranslationData> = {
         description: "The site you're currently exploring built to be anything but ordinary. Featuring reactive particles, kinetic typography, and seamless transitions.",
         tech: ["React", "Next.js", "Tailwind"],
         link: "plagueson.dev",
-        image: "https://picsum.photos/1200/800?random=3",
+        // Replace with: https://raw.githubusercontent.com/azamoviich/myportfolio/main/images/portfolio.jpg
+        image: "https://raw.githubusercontent.com/azamoviich/myportfolio/main/images/portfolio.jpg",
         year: "2025"
       }
     ]
@@ -171,7 +174,7 @@ export const translations: Record<Language, TranslationData> = {
         description: "Pulingizni boshqarishga yordam beradigan AI Finansist Yordamchi Bot.",
         tech: ["JavaScript", "TypeScript", "NodeJS"],
         link: "https://t.me/f_ai_as_bot",
-        image: "https://picsum.photos/1200/800?random=1",
+        image: "https://raw.githubusercontent.com/azamoviich/myportfolio/main/images/faias.jpg",
         year: "2025"
       },
       {
@@ -181,7 +184,7 @@ export const translations: Record<Language, TranslationData> = {
         description: "Mehmonlarni qayta qayta kelishini ta'minlovchi Web Programma.",
         tech: ["Python", "Next.js"],
         link: "https://t.me/benedict_loyalty_bot",
-        image: "https://picsum.photos/1200/800?random=2",
+        image: "https://raw.githubusercontent.com/azamoviich/myportfolio/main/images/benedict.jpg",
         year: "2025"
       },
       {
@@ -191,7 +194,7 @@ export const translations: Record<Language, TranslationData> = {
         description: "Siz hozir ko'rib turgan sayt — oddiy bo'lmaslik uchun qurilgan. Reaktiv zarrachalar, kinetik tipografiya va silliq perexodlar.",
         tech: ["React", "Next.js", "Tailwind"],
         link: "plagueson.dev",
-        image: "https://picsum.photos/1200/800?random=3",
+        image: "https://raw.githubusercontent.com/azamoviich/myportfolio/main/images/portfolio.jpg",
         year: "2025"
       }
     ]
@@ -246,7 +249,7 @@ export const translations: Record<Language, TranslationData> = {
         description: "Финансовый помощник, который помогает навести порядок в деньгах. Он отслеживает доходы и расходы, анализирует траты и дает понятные рекомендации для принятия взвешенных финансовых решений.",
         tech: ["JavaScript", "TypeScript", "NodeJS"],
         link: "https://t.me/f_ai_as_bot",
-        image: "https://picsum.photos/1200/800?random=1",
+        image: "https://raw.githubusercontent.com/azamoviich/myportfolio/main/images/faias.jpg",
         year: "2025"
       },
       {
@@ -256,7 +259,7 @@ export const translations: Record<Language, TranslationData> = {
         description: "Платформа которая помогает привлекать и удерживать клиентов.",
         tech: ["Python", "Next.js"],
         link: "t.me/benedict_loyalty_bot",
-        image: "https://picsum.photos/1200/800?random=2",
+        image: "https://raw.githubusercontent.com/azamoviich/myportfolio/main/images/benedict.jpg",
         year: "2025"
       },
       {
@@ -266,7 +269,7 @@ export const translations: Record<Language, TranslationData> = {
         description: "Сайт, который вы сейчас изучаете — создан, чтобы быть каким угодно, но не обычным. Реактивные частицы, кинетическая типографика и плавные переходы.",
         tech: ["React", "R3F", "Tailwind"],
         link: "#",
-        image: "https://picsum.photos/1200/800?random=3",
+        image: "https://raw.githubusercontent.com/azamoviich/myportfolio/main/images/portfolio.jpg",
         year: "2025"
       }
     ]

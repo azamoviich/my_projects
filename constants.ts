@@ -31,7 +31,8 @@ export const PROJECTS: Project[] = [
     description: "A browser-based operating system exploring the future of spatial computing interfaces using purely web technologies.",
     tech: ["React", "Three.js", "WebRTC"],
     link: "#",
-    image: "https://picsum.photos/1200/800?random=1",
+    // Replace with: https://raw.githubusercontent.com/azamoviich/myportfolio/main/images/project1.jpg
+    image: "https://raw.githubusercontent.com/azamoviich/myportfolio/main/images/project1.jpg",
     year: "2024"
   },
   {
@@ -41,7 +42,8 @@ export const PROJECTS: Project[] = [
     description: "Generative art platform that creates unique audio-visual identities for users based on their Spotify listening history.",
     tech: ["Python", "TensorFlow", "Next.js"],
     link: "#",
-    image: "https://picsum.photos/1200/800?random=2",
+    // Replace with: https://raw.githubusercontent.com/azamoviich/myportfolio/main/images/project2.jpg
+    image: "https://raw.githubusercontent.com/azamoviich/myportfolio/main/images/project2.jpg",
     year: "2024"
   },
   {
@@ -51,7 +53,8 @@ export const PROJECTS: Project[] = [
     description: "The site you're currently exploring — built to be anything but ordinary. Featuring reactive particles, kinetic typography, and seamless transitions.",
     tech: ["React", "R3F", "Tailwind", "Framer Motion"],
     link: "#",
-    image: "https://picsum.photos/1200/800?random=3",
+    // Replace with: https://raw.githubusercontent.com/azamoviich/myportfolio/main/images/project3.jpg
+    image: "https://raw.githubusercontent.com/azamoviich/myportfolio/main/images/project3.jpg",
     year: "2025"
   }
 ];
