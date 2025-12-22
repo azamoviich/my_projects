@@ -77,7 +77,7 @@ const Work: React.FC = () => {
         
         {/* Github Call to Action */}
         <div className="mt-16 flex justify-center">
-           <a href="https://github.com" target="_blank" rel="noreferrer" className="flex items-center gap-3 text-gray-400 hover:text-white transition-colors group border border-white/10 px-8 py-4 rounded-full bg-white/5 backdrop-blur-sm">
+           <a href="github.com/azamoviich" target="_blank" rel="noreferrer" className="flex items-center gap-3 text-gray-400 hover:text-white transition-colors group border border-white/10 px-8 py-4 rounded-full bg-white/5 backdrop-blur-sm">
               <Github className="group-hover:rotate-12 transition-transform" />
               <span className="font-mono text-sm">{t.work.exploreRepos}</span>
            </a>
