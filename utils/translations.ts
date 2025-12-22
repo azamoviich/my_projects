@@ -203,9 +203,9 @@ export const translations: Record<Language, TranslationData> = {
     nav: { hero: '01. СТАРТ', about: '02. ЛИЧНОСТЬ', work: '03. ПРОЕКТЫ', contact: '04. СИГНАЛ' },
     hero: {
       role: 'FULL STACK АРХИТЕКТОР',
-      titleLine1: 'ЦИФРОВАЯ',
-      titleLine2: 'РЕАЛЬНОСТЬ',
-      titleLine3: 'СОЗДАТЕЛЬ',
+      titleLine1: 'СОЗДАТЕЛЬ',
+      titleLine2: 'ЦИФРОВОЙ',
+      titleLine3: 'РЕАЛЬНОСТИ',
       description: 'Создание иммерсивных веб-интерфейсов, стирающих грань между утилитарностью и искусством. В настоящее время проектирую будущее в TopTier Tech.',
       cta: 'ИССЛЕДОВАТЬ',
     },
