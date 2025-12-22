@@ -1,13 +1,30 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { Github, Linkedin, Instagram, Twitter } from 'lucide-react';
+import { Github, Instagram, Twitter } from 'lucide-react';
 import { SOCIALS } from '../constants';
+
+// Custom Telegram Icon Component
+const TelegramIcon: React.FC<{ size?: number }> = ({ size = 20 }) => (
+  <svg
+    width={size}
+    height={size}
+    viewBox="0 0 24 24"
+    fill="none"
+    stroke="currentColor"
+    strokeWidth="2"
+    strokeLinecap="round"
+    strokeLinejoin="round"
+  >
+    <path d="M22 2L11 13" />
+    <path d="M22 2l-7 20-4-9-9-4 20-7z" />
+  </svg>
+);
 
 const SocialSidebar: React.FC = () => {
   const getIcon = (name: string) => {
     switch (name) {
       case 'GitHub': return <Github size={20} />;
-      case 'LinkedIn': return <Linkedin size={20} />;
+      case 'Telegram': return <TelegramIcon size={20} />;
       case 'Instagram': return <Instagram size={20} />;
       case 'Twitter': return <Twitter size={20} />;
       default: return <Github size={20} />;
