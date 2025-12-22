@@ -6,6 +6,7 @@ import Navigation from './components/Navigation';
 import MobileMenu from './components/MobileMenu';
 import SocialSidebar from './components/SocialSidebar';
 import LanguageSplash from './components/LanguageSplash';
+import LanguageSwitcher from './components/LanguageSwitcher';
 import Hero from './views/Hero';
 import About from './views/About';
 import Work from './views/Work';
@@ -103,9 +104,9 @@ const AppContent = () => {
         </section>
       </main>
 
-      {/* Decorative corners */}
-      <div className="fixed top-6 left-6 z-40 mix-blend-difference hidden md:block">
-        <span className="font-mono text-xs">EST. 2025 // {language ? language.toUpperCase() : 'EN'}</span>
+      {/* Language Switcher */}
+      <div className="fixed top-4 left-4 md:top-6 md:left-6 z-40 mix-blend-difference">
+        <LanguageSwitcher />
       </div>
       <div className="fixed bottom-6 right-6 z-40 mix-blend-difference hidden md:block">
         <span className="font-mono text-xs animate-pulse">SYSTEM: ONLINE</span>
