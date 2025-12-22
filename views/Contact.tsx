@@ -29,7 +29,7 @@ const Contact: React.FC = () => {
             </p>
 
             <motion.a 
-               href="mailto:hello@example.com"
+               href="muhammadamin.nazirov@mail.ru"
                whileHover={{ scale: 1.05 }}
                whileTap={{ scale: 0.95 }}
                className="inline-flex items-center gap-4 bg-white text-black px-10 py-5 rounded-full font-bold text-lg hover:bg-accent transition-colors group"
@@ -48,7 +48,7 @@ const Contact: React.FC = () => {
                </div>
                <div className="flex items-center justify-center md:justify-start gap-3 text-lg">
                   <Mail className="text-accent" size={20} />
-                  <span>hello@aether.dev</span>
+                  <span>muhammadamin.nazirov@mail.ru</span>
                </div>
             </div>
          </div>

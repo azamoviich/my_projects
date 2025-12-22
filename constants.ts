@@ -1,10 +1,10 @@
 import { Project, Skill, SocialLink } from './types';
 
 export const SOCIALS: SocialLink[] = [
-  { name: 'GitHub', url: 'https://github.com', icon: 'github' },
-  { name: 'Telegram', url: 'https://t.me', icon: 'telegram' },
-  { name: 'Instagram', url: 'https://instagram.com', icon: 'instagram' },
-  { name: 'Twitter', url: 'https://twitter.com', icon: 'twitter' },
+  { name: 'GitHub', url: 'https://github.com/azamoviich', icon: 'github' },
+  { name: 'Telegram', url: 'https://t.me/plagueson', icon: 'telegram' },
+  { name: 'Instagram', url: 'https://instagram.com/richplagueson', icon: 'instagram' },
+  { name: 'Twitter', url: 'https://twitter.com/plagueson', icon: 'twitter' },
 ];
 
 // Specific Tech Stack as requested
@@ -18,8 +18,8 @@ export const CORE_STACK = [
 export const SKILLS: Skill[] = [
   { name: 'Frontend Architecture', level: 95 },
   { name: 'Interactive WebGL', level: 85 },
-  { name: 'Backend Systems', level: 90 },
-  { name: 'Database Design', level: 88 },
+  { name: 'Backend Systems', level: 73 },
+  { name: 'SQL', level: 88 },
   { name: 'UI/UX Design', level: 80 },
 ];
 
