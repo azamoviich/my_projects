@@ -19,6 +19,7 @@ const Work: React.FC = () => {
           border-radius: 24px;
           overflow: hidden;
           isolation: isolate;
+          contain: layout style paint;
         }
 
         .project-photo {
@@ -27,6 +28,7 @@ const Work: React.FC = () => {
           object-fit: cover;
           object-position: center;
           display: block;
+          border-radius: 24px;
         }
 
         .project-photo-vignette {
@@ -234,7 +236,7 @@ const Work: React.FC = () => {
                       animate={{ opacity: 1, scale: 1 }}
                       exit={{ opacity: 0, scale: 0.9 }}
                       transition={{ duration: 0.4, ease: [0.22, 1, 0.36, 1] }}
-                      className="absolute inset-0 pointer-events-none z-0 hidden md:flex items-center justify-center overflow-visible"
+                      className="absolute inset-0 pointer-events-none z-0 hidden md:flex items-center justify-center overflow-hidden"
                     >
                       <div className="project-photo-wrapper">
                         <img 
