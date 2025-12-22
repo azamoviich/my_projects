@@ -36,13 +36,13 @@ const Work: React.FC = () => {
           inset: 0;
           pointer-events: none;
           border-radius: 24px;
-          /* Vignette fade using exact background color #050505 - starts at 50% */
+          /* Vignette fade using exact background color #050505 - starts at 80% */
           background: radial-gradient(
             ellipse at center,
             transparent 0%,
-            transparent 50%,
-            rgba(5, 5, 5, 0.3) 65%,
-            rgba(5, 5, 5, 0.7) 80%,
+            transparent 80%,
+            rgba(5, 5, 5, 0.3) 85%,
+            rgba(5, 5, 5, 0.7) 92%,
             rgba(5, 5, 5, 0.95) 100%
           );
           mix-blend-mode: normal;
