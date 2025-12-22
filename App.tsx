@@ -104,8 +104,15 @@ const AppContent = () => {
         </section>
       </main>
 
-      {/* Language Switcher */}
-      <div className="fixed top-4 left-4 md:top-6 md:left-6 z-40 mix-blend-difference">
+      {/* Language Switcher with Logo */}
+      <div className="fixed top-4 left-4 md:top-6 md:left-6 z-40 mix-blend-difference flex items-center gap-4">
+        <motion.img 
+          src="/logo.png" 
+          alt="Company Logo" 
+          className="h-8 w-8 md:h-10 md:w-10 opacity-80 hover:opacity-100 transition-opacity"
+          whileHover={{ scale: 1.1, rotate: 5 }}
+          transition={{ type: "spring", stiffness: 400, damping: 10 }}
+        />
         <LanguageSwitcher />
       </div>
       <div className="fixed bottom-6 right-6 z-40 mix-blend-difference hidden md:block">

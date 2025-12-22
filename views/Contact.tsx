@@ -2,6 +2,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { Mail, MapPin, ArrowRight } from 'lucide-react';
 import { useLanguage } from '../context/LanguageContext';
+import LanguageSwitcher from '../components/LanguageSwitcher';
 
 const Contact: React.FC = () => {
   const { t } = useLanguage();
@@ -11,6 +12,18 @@ const Contact: React.FC = () => {
       
       {/* Background Decor */}
       <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[800px] h-[800px] bg-accent/5 rounded-full blur-[120px] pointer-events-none" />
+
+      {/* Language Switcher with Logo */}
+      <div className="fixed top-4 left-4 md:top-6 md:left-6 z-40 mix-blend-difference flex items-center gap-4">
+        <motion.img 
+          src="/logo.png" 
+          alt="Company Logo" 
+          className="h-8 w-8 md:h-10 md:w-10 opacity-80 hover:opacity-100 transition-opacity"
+          whileHover={{ scale: 1.1, rotate: 5 }}
+          transition={{ type: "spring", stiffness: 400, damping: 10 }}
+        />
+        <LanguageSwitcher />
+      </div>
 
       <div className="max-w-4xl w-full mx-auto text-center z-10">
          <motion.div
@@ -54,7 +67,15 @@ const Contact: React.FC = () => {
          </div>
          
          <div className="mt-24 pt-8 border-t border-gray-800 flex flex-col md:flex-row justify-between items-center text-xs font-mono text-gray-600 gap-4">
-            <p>{t.contact.copyright}</p>
+            <div className="flex items-center gap-3">
+               <motion.img 
+                 src="/logo.png" 
+                 alt="Company Logo" 
+                 className="h-6 w-6 opacity-60 hover:opacity-100 transition-opacity"
+                 whileHover={{ scale: 1.15 }}
+               />
+               <p>{t.contact.copyright}</p>
+            </div>
             <p>{t.contact.design}</p>
          </div>
       </div>
