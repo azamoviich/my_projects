@@ -52,21 +52,32 @@ const Work: React.FC = () => {
                 </a>
               </div>
               
-              {/* Image Reveal Effect - Absolute Center */}
+              {/* Image Reveal Effect - Vignette Fade */}
               <AnimatePresence>
                 {hoveredProject === project.id && (
                   <motion.div
-                    initial={{ opacity: 0, scale: 0.8, rotate: -2 }}
-                    animate={{ opacity: 1, scale: 1, rotate: 0 }}
-                    exit={{ opacity: 0, scale: 0.8, rotate: 2 }}
-                    transition={{ duration: 0.3 }}
-                    className="absolute inset-0 pointer-events-none z-0 hidden md:flex items-center justify-center overflow-hidden opacity-20"
+                    initial={{ opacity: 0, scale: 0.9 }}
+                    animate={{ opacity: 1, scale: 1 }}
+                    exit={{ opacity: 0, scale: 0.9 }}
+                    transition={{ duration: 0.4, ease: [0.22, 1, 0.36, 1] }}
+                    className="absolute inset-0 pointer-events-none z-0 hidden md:flex items-center justify-center overflow-hidden"
                   >
-                     {/* In a real scenario, this would be the project image. Using a blurred gradient abstract fallback for now to ensure visual safety */}
-                     <div 
-                        className="w-[600px] h-[300px] bg-cover bg-center rounded-lg grayscale opacity-30 mix-blend-screen"
-                        style={{ backgroundImage: `url(${project.image})` }}
-                     />
+                     <div className="relative w-[700px] h-[400px] rounded-2xl overflow-hidden">
+                        {/* Main Image */}
+                        <img 
+                          src={project.image}
+                          alt={project.title}
+                          className="w-full h-full object-cover"
+                        />
+                        
+                        {/* Strong Vignette Fade - edges fade to black */}
+                        <div 
+                          className="absolute inset-0"
+                          style={{
+                            background: 'radial-gradient(ellipse at center, transparent 0%, transparent 30%, rgba(0,0,0,0.6) 70%, rgba(0,0,0,0.95) 100%)'
+                          }}
+                        />
+                     </div>
                   </motion.div>
                 )}
               </AnimatePresence>
