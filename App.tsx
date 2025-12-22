@@ -15,7 +15,7 @@ import { LanguageProvider, useLanguage } from './context/LanguageContext';
 const AppContent = () => {
   const [activeSection, setActiveSection] = useState('hero');
   const [isSplashVisible, setIsSplashVisible] = useState(true);
-  const { language, setLanguage } = useLanguage();
+  const { language, setLanguage, t } = useLanguage();
 
   const { scrollYProgress } = useScroll();
   const scaleX = useSpring(scrollYProgress, {
@@ -105,10 +105,10 @@ const AppContent = () => {
 
       {/* Decorative corners */}
       <div className="fixed top-6 left-6 z-40 mix-blend-difference hidden md:block">
-        <span className="font-mono text-xs">EST. 2025 // {language ? language.toUpperCase() : 'EN'}</span>
+        <span className="font-mono text-xs">{t.footer.est}</span>
       </div>
       <div className="fixed bottom-6 right-6 z-40 mix-blend-difference hidden md:block">
-        <span className="font-mono text-xs animate-pulse">SYSTEM: ONLINE</span>
+        <span className="font-mono text-xs animate-pulse">{t.footer.system}</span>
       </div>
     </div>
   );

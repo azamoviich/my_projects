@@ -41,6 +41,10 @@ interface TranslationData {
     design: string;
     location: string;
   };
+  footer: {
+    est: string;
+    system: string;
+  };
   projects: Project[];
 }
 
@@ -85,6 +89,10 @@ export const translations: Record<Language, TranslationData> = {
       copyright: '© 2025 PLAGUE TECH SOLUTIONS. All rights reserved.',
       design: 'Designed in the Void.',
       location: 'Tashkent, Uzbekistan / Remote / Open to Relocate'
+    },
+    footer: {
+      est: 'EST. 2025 // EN',
+      system: 'SYSTEM: ONLINE'
     },
     projects: [
       {
@@ -158,7 +166,11 @@ export const translations: Record<Language, TranslationData> = {
       socials: 'IJTIMOIY TARMOQLAR',
       copyright: '© 2025 PLAGUE TECH SOLUTIONS. Barcha huquqlar himoyalangan.',
       design: 'Voidda ishlab chiqilgan.',
-      location: 'Toshkent, O‘zbekiston / Masofaviy / Relocation'
+      location: 'Toshkent, O'zbekiston / Masofaviy / Relocation'
+    },
+    footer: {
+      est: 'EST. 2025 // UZ',
+      system: 'TIZIM: ONLAYN'
     },
     projects: [
       {
@@ -233,6 +245,10 @@ export const translations: Record<Language, TranslationData> = {
       copyright: '© PLAGUE TECH SOLUTIONS. Все права защищены.',
       design: 'Создано в Пустоте.',
       location: 'Ташкент, Узбекистан / Удаленно / Готов к переезду'
+    },
+    footer: {
+      est: 'EST. 2025 // RU',
+      system: 'СИСТЕМА: ОНЛАЙН'
     },
     projects: [
       {
