@@ -79,7 +79,7 @@ const About: React.FC = () => {
                 </div>
              </div>
              <a href="https://open.spotify.com" target="_blank" rel="noreferrer" className="text-xs font-mono text-gray-500 hover:text-green-400 flex items-center gap-2 transition-colors">
-                <span>OPEN SPOTIFY PLAYLIST</span>
+                <span>{t.about.spotifyPlaylist}</span>
                 <ExternalLink size={10} />
              </a>
           </motion.div>

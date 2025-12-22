@@ -22,6 +22,7 @@ interface TranslationData {
     coreTech: string;
     musicTitle: string;
     musicDesc: string;
+    spotifyPlaylist: string;
     stats: { exp: string; projects: string };
   };
   work: {
@@ -40,10 +41,6 @@ interface TranslationData {
     copyright: string;
     design: string;
     location: string;
-  };
-  footer: {
-    est: string;
-    system: string;
   };
   projects: Project[];
 }
@@ -71,6 +68,7 @@ export const translations: Record<Language, TranslationData> = {
       coreTech: 'CORE TECHNOLOGIES',
       musicTitle: 'AUDIO FREQUENCY',
       musicDesc: 'Music is the vital part of my life.',
+      spotifyPlaylist: 'OPEN SPOTIFY PLAYLIST',
       stats: { exp: 'Years Exp', projects: 'Projects' },
     },
     work: {
@@ -89,10 +87,6 @@ export const translations: Record<Language, TranslationData> = {
       copyright: '© 2025 PLAGUE TECH SOLUTIONS. All rights reserved.',
       design: 'Designed in the Void.',
       location: 'Tashkent, Uzbekistan / Remote / Open to Relocate'
-    },
-    footer: {
-      est: 'EST. 2025 // EN',
-      system: 'SYSTEM: ONLINE'
     },
     projects: [
       {
@@ -149,6 +143,7 @@ export const translations: Record<Language, TranslationData> = {
       coreTech: 'ASOSIY TEXNOLOGIYALAR',
       musicTitle: 'AUDIO CHASTOTA',
       musicDesc: 'Musiqa — mening kodim uchun yoqilg\'i. Deep Focus va Elektron bitlar.',
+      spotifyPlaylist: 'SPOTIFY PLAYLISTNI OCHISH',
       stats: { exp: 'Yillik Tajriba', projects: 'Loyihalar' },
     },
     work: {
@@ -166,11 +161,7 @@ export const translations: Record<Language, TranslationData> = {
       socials: 'IJTIMOIY TARMOQLAR',
       copyright: '© 2025 PLAGUE TECH SOLUTIONS. Barcha huquqlar himoyalangan.',
       design: 'Voidda ishlab chiqilgan.',
-      location: 'Toshkent, O'zbekiston / Masofaviy / Relocation'
-    },
-    footer: {
-      est: 'EST. 2025 // UZ',
-      system: 'TIZIM: ONLAYN'
+      location: 'Toshkent, O‘zbekiston / Masofaviy / Relocation'
     },
     projects: [
       {
@@ -227,6 +218,7 @@ export const translations: Record<Language, TranslationData> = {
       coreTech: 'КЛЮЧЕВЫЕ ТЕХНОЛОГИИ',
       musicTitle: 'АУДИО ЧАСТОТА',
       musicDesc: 'Музыка — это топливо для моего кода.',
+      spotifyPlaylist: 'ОТКРЫТЬ SPOTIFY ПЛЕЙЛИСТ',
       stats: { exp: 'Лет Опыта', projects: 'Проектов' },
     },
     work: {
@@ -245,10 +237,6 @@ export const translations: Record<Language, TranslationData> = {
       copyright: '© PLAGUE TECH SOLUTIONS. Все права защищены.',
       design: 'Создано в Пустоте.',
       location: 'Ташкент, Узбекистан / Удаленно / Готов к переезду'
-    },
-    footer: {
-      est: 'EST. 2025 // RU',
-      system: 'СИСТЕМА: ОНЛАЙН'
     },
     projects: [
       {

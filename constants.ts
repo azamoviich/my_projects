@@ -2,6 +2,7 @@ import { Project, Skill, SocialLink } from './types';
 
 export const SOCIALS: SocialLink[] = [
   { name: 'GitHub', url: 'https://github.com', icon: 'github' },
+  { name: 'LinkedIn', url: 'https://linkedin.com', icon: 'linkedin' },
   { name: 'Instagram', url: 'https://instagram.com', icon: 'instagram' },
   { name: 'Twitter', url: 'https://twitter.com', icon: 'twitter' },
 ];

@@ -1,12 +1,13 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { Github, Instagram, Twitter } from 'lucide-react';
+import { Github, Linkedin, Instagram, Twitter } from 'lucide-react';
 import { SOCIALS } from '../constants';
 
 const SocialSidebar: React.FC = () => {
   const getIcon = (name: string) => {
     switch (name) {
       case 'GitHub': return <Github size={20} />;
+      case 'LinkedIn': return <Linkedin size={20} />;
       case 'Instagram': return <Instagram size={20} />;
       case 'Twitter': return <Twitter size={20} />;
       default: return <Github size={20} />;
